@@ -24,19 +24,19 @@
       <div class="navbar">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Como funciona </a>
+            <a class="nav-link" href="#first">Como funciona </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Como participar </a>
+            <a class="nav-link" href="#section3">Como participar </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mentores </a>
+            <a class="nav-link" href="#third">Mentores </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Programação </a>
+            <a class="nav-link" href="#fourth">Programação </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
+            <a class="nav-link" href="#fifth">FAQ</a>
           </li>
         </ul>
       </div>
@@ -85,7 +85,7 @@
       </div>
       <button class="btn space-icon">Inscreva-se agora</button>
 
-      <div class="content-sub-2">
+      <div class="content-sub-2" id="first">
         <h1 class="how-black-works">Como o Black Creators <br> Program funciona</h1>
       </div>
     </div>
@@ -195,7 +195,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" id="third">
     <div class="content-sub-3">
       <h1 class="learn">Aprenda com especialistas <br>
         em presença na web</h1>
@@ -316,7 +316,7 @@
   </div>
 
   <div id="section2">
-    <div class="container">
+    <div class="container" id="fourth">
       <div class="content-sub-2">
         <h1 class="how-black-works">Como nosso programa ajuda você <br> a aumentar sua presença online</h1>
       </div>
@@ -598,12 +598,32 @@
 
   <div class="container">
     <div class="btn-spacement">
-      <button class="btn">Inscreva-se agora</button>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Inscreva-se agora</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
   </div>
-  
+</div>    </div>
+  </div>
 
-  <div class="container">
+
+  <div class="container" id="fifth">
     <div class="content-sub-3">
       <h1 class="learn">Ainda com dúvidas?<br>
         A gente responde</h1>
@@ -621,8 +641,7 @@
       <button type="button" class="accordion__button container">Como posso me inscrever?</button>
       <div class="accordion__content container">
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tenetur rerum ducimus aliquam culpa expedita
-          fugit. Omnis perferendis esse non saepe enim a deserunt fugiat reprehenderit. Exercitationem eius aut libero.
+        <p>Preencha o <a href="https://forms.gle/3GFWhzJ9NsGJ2Zoi7" target="_blank">Formulário de Seleção</a> e analisaremos sua inscrição.
         </p>
       </div>
     </div>
@@ -632,8 +651,14 @@
       <button type="button" class="accordion__button container">Como me qualifico?</button>
       <div class="accordion__content container">
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tenetur rerum ducimus aliquam culpa expedita
-          fugit. Omnis perferendis esse non saepe enim a deserunt fugiat reprehenderit. Exercitationem eius aut libero.
+        <p>
+          Você se qualifica se: <br>
+          More no Brasil; <br>
+          Ter pelo menos 18 anos; <br>
+          Ter pelo menos um (1) ano de histórico de publicação regular de conteúdo de alta qualidade em plataformas sociais; <br>
+          Ainda não possui um site ou blog no qual você publica conteúdo; <br>
+          Não são uma publicação de mídia; <br>
+          Autoidentificar-se como uma pessoa negra; <br>
         </p>
       </div>
     </div>
@@ -642,8 +667,8 @@
       <button type="button" class="accordion__button container">Quantas pessoas serão selecionadas?</button>
       <div class="accordion__content container">
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tenetur rerum ducimus aliquam culpa expedita
-          fugit. Omnis perferendis esse non saepe enim a deserunt fugiat reprehenderit. Exercitationem eius aut libero.
+        <p>
+          Vamos selecionar 100 criadores para participar do programa.
         </p>
       </div>
     </div>
@@ -652,8 +677,7 @@
       <button type="button" class="accordion__button container">Como os participantes serão selecionados?</button>
       <div class="accordion__content container">
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tenetur rerum ducimus aliquam culpa expedita
-          fugit. Omnis perferendis esse non saepe enim a deserunt fugiat reprehenderit. Exercitationem eius aut libero.
+        <p>Analisaremos todas as inscrições enviadas por meio do formulário de inscrições para saber mais sobre você e entender por que você gostaria de fazer parte deste programa. Procuramos criar uma mistura entre categorias de conteúdo e tipos de criadores. Infelizmente, temos apenas um número limitado de vagas e podemos não aceitar todos os candidatos qualificados. De qualquer forma, você receberá uma notificação nossa sobre se você foi aceito no programa ou não.
         </p>
       </div>
     </div>
@@ -662,8 +686,16 @@
       <button type="button" class="accordion__button container">E se eu já tiver um site?</button>
       <div class="accordion__content container">
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tenetur rerum ducimus aliquam culpa expedita
-          fugit. Omnis perferendis esse non saepe enim a deserunt fugiat reprehenderit. Exercitationem eius aut libero.
+        <p>Um dos principais objetivos deste programa e do currículo é ajudar os participantes a criar um site do zero. Por isso, estamos priorizando e recrutando especificamente criadores que ainda não tenham um site ou blog onde postem conteúdo. Se você acha que poderia se beneficiar de tal currículo apesar de já ter um site, inclua uma justificativa adicional em sua inscrição e se você estaria disposto a começar do zero.
+        </p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <button type="button" class="accordion__button container">Qual será o financiamento que vou receber do Programa?</button>
+      <div class="accordion__content container">
+        <hr>
+        <p>Você vai receber o valor de R$ 1.250 em dinheiro na conclusão de cada um dos 6 módulos do programa. Além disso, vai receber financiamento para participar presencialmente da graduação do programa em São Paulo no Google Campus e todos os custos envolvendo compra de URL, Host e Servidor para seu site.
         </p>
       </div>
     </div>
@@ -681,33 +713,39 @@
   </div>
   </div>
   <footer>
-   <h1>Black <br> Creators <br> Program</h1>
-   <img src="assets/develop.png" alt="">
-   <div class="footer-links">
-    <ul class="footer">
-      <li class="footer-item">
-        <a class="footer-link" href="#">Como funciona </a>
-      </li>
-      <li class="footer-item">
-        <a class="footer-link" href="#">Como participar </a>
-      </li>
-      <li class="footer-item">
-        <a class="footer-link" href="#">Mentores </a>
-      </li>
-      <li class="footer-item">
-        <a class="footer-link" href="#">Programação </a>
-      </li>
-      <li class="footer-item">
-        <a class="footer-link" href="#">FAQ</a>
-      </li>
-    </ul>
-  </div>
+    <h1>Black <br> Creators <br> Program</h1>
+    <img src="assets/develop.png" alt="">
+    <div class="footer-links">
+      <ul class="footer">
+        <li class="footer-item">
+          <a class="footer-link" href="#first">Como funciona </a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#section3">Como participar </a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#third">Mentores </a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#fourth">Programação </a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#fifth">FAQ</a>
+        </li>
+      </ul>
+    </div>
   </footer>
 </body>
 
 </html>
+
 <script src="all.js"></script>
+
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: #000000;
   }
@@ -751,7 +789,7 @@
     position: absolute;
     margin-top: -30px;
     right: 0;
-  
+
   }
 
   .content-sub h2 {
@@ -1085,21 +1123,21 @@
     color: white;
   }
 
-  footer{
+  footer {
     border-top: 1px solid #232323;
-   padding: 70px 0;
+    padding: 70px 0;
     width: 100%;
-    
+
   }
 
-  footer h1{
+  footer h1 {
     color: white;
     padding-left: 260px;
     font-weight: 800;
     font-size: 23.45px;
   }
 
-  footer img{
+  footer img {
     width: 220px;
     position: absolute;
     right: 0;
@@ -1108,27 +1146,28 @@
   }
 
 
-footer .footer-links .footer{
-   list-style: none;
-   display: flex;
-   text-decoration: none;
-   position: absolute;
-   right: 0;
-   font-size: 14px;
-   padding-right: 123px;
-   margin-top: -30px;
-}
+  footer .footer-links .footer {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    padding-right: 123px;
+    margin-top: -30px;
+  }
 
-footer .footer-links ul li {
- padding-left: 12px;
+  footer .footer-links ul li {
+    padding-left: 12px;
 
 
-}
-footer .footer-links  .footer-link{
-  text-decoration: none;
-  color: #FFFFFF;
-     
-}
+  }
+
+  footer .footer-links .footer-link {
+    text-decoration: none;
+    color: #FFFFFF;
+
+  }
 
 
   @-webkit-keyframes rotation {
