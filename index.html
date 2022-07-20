@@ -38,9 +38,28 @@
           </li>
         </ul>
       </div>
-      <button class="btn">Inscreva-se</button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Inscreva-se</button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p class="modal-title" id="exampleModalLabel">Black <br> Creators <br> Program</p>
+          </div>
+          <div class="modal-body">
+            <p>Seu conteúdo, sua empresa.</p>
+          </div>
+          <div class="form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0" color="white">Carregando…</iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a Landing</button>
+          </div>
+        </div>
+      </div>
     </div>
-  </nav>
+</div>
+</nav>
 
   <div class="container">
     <div class="row">
@@ -596,15 +615,16 @@ Inscreva-se agora</button>
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <p class="modal-title" id="exampleModalLabel">Black <br> Creators <br> Program</p>
       </div>
       <div class="modal-body">
-        ...
+        <p>Seu conteúdo, sua empresa.</p>
+      </div>
+      <div class="form">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0" color="white">Carregando…</iframe>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a Landing</button>
       </div>
     </div>
   </div>
@@ -739,7 +759,7 @@ Inscreva-se agora</button>
     background-color: #000000;
   }
 
-  .btn {
+  .btn, .btn-form {
     background: linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
     color: white;
     padding: 8px 30px;
@@ -1168,6 +1188,55 @@ Inscreva-se agora</button>
     text-decoration: none;
     color: #FFFFFF;
   }
+
+.btn-close{
+  background-color: white;
+  border-radius: 50%;
+}
+
+  .modal{
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+
+  .modal-header, .modal-body, .modal-footer, .modal-content{
+    background-color: #232323;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    
+  }
+  .modal-header p{
+    font-weight: 800;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-bottom: -20px;
+  }
+  .modal-body p{
+    font-weight: 770;
+    font-size: 24px;
+    color: rgb(124, 115, 115);
+    margin-left: 40px;
+    margin-bottom: -5px;
+  }
+
+  .modal-content {
+    width: 640px;
+    justify-content: center;
+    position: absolute;
+  }
+
+
+  .modal-footer{
+padding-right: 60px ;
+text-align: center;
+margin-top: -50px;
+margin-bottom: 20px;
+}
 
 
   @-webkit-keyframes rotation {
