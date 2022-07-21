@@ -16,9 +16,9 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#first"><img src="assets/logo.png" alt=""></a>
-      <div class="navbar">
+    <div class="container-fluid ">
+      <a class="navbar-brand " href="#first"><img src="assets/logo.png" alt=""></a>
+      <div class="navbar ">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#first">Como funciona </a>
@@ -52,8 +52,7 @@
             <div class="form">
               <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/viewform?embedded=true"
-                width="640" height="580" frameborder="0" marginheight="0" marginwidth="0"
-                color="white"></iframe>
+                width="640" height="580" frameborder="0" marginheight="0" marginwidth="0" color="white"></iframe>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a Landing</button>
@@ -64,11 +63,12 @@
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container ">
     <div class="row">
+      <div class="logo">.</div>
       <div class="col-6 info-left">
         <h1>Black<br /> Creators<br /> Program </h1>
-        <div class="content">
+        <div class="content ">
           <h4>Seu conteúdo, sua empresa</h4>
         </div>
 
@@ -93,15 +93,18 @@
       <div class="content-sub-2">
         <h1>Impulsione sua carreira digital <br> com a ajuda do Google</h1>
       </div>
-      <p class="content-sub-2">Desenvolvido pelo Google for Creators e pela Creators <br> LLC, o Black Creator Program
+      <p class="content-subscription">Desenvolvido pelo Google for Creators e pela Creators <br> LLC, o Black Creator
+        Program
         convidará 100 criadores <br> negros para durante 6 meses receberem financiamento, <br> orientação, educação e
         muito mais, construindo uma <br>presença de sucesso na web, elevando suas carreiras <br> digitais para o próximo
         nível.</p>
-      <div class="icon-google-plus-creators">
-        <img src="assets/icon.png" class="loading" alt="icone Play Google + Creators">
-      </div>
-      <div class="rectangle">
-        <img src="assets/rectangle.png" alt="">
+      <div class="logo-google">
+        <div class="icon-google-plus-creators">
+          <img src="assets/icon.png" class="loading" alt="icone Play Google + Creators">
+        </div>
+        <div class="rectangle">
+          <img src="assets/rectangle.png" alt="">
+        </div>
       </div>
       <button class="btn space-icon">Inscreva-se agora</button>
 
@@ -836,17 +839,18 @@
     margin-right: 40px;
     margin-top: 20.71px;
   }
-  .navbar-dark .navbar-nav .nav-link{
+
+  .navbar-dark .navbar-nav .nav-link {
     color: white;
     font-size: 18px;
     font-weight: 700;
-    
+
   }
- 
-  .navbar-dark .navbar-nav .nav-link:hover{
+
+  .navbar-dark .navbar-nav .nav-link:hover {
     text-decoration: underline;
     color: white;
-    
+
   }
 
   .navbar-brand {
@@ -894,7 +898,8 @@
     margin-top: 120px;
   }
 
-  #section2 .content-sub-2 {
+  #section2 .content-sub-2,
+  .content-subscription {
     color: #E3E3E3;
     margin-left: 150px;
     margin-bottom: 29px;
@@ -1325,11 +1330,11 @@
       font-size: 35.9px;
     }
 
-    .info-left h4{
+    .info-left h4 {
       font-size: 25px;
       display: flex;
       color: #FFFFFF;
-      position: absolute;      
+      position: absolute;
     }
 
     .content-sub h2 {
@@ -1337,41 +1342,112 @@
       position: absolute;
       text-align: start;
       margin-top: 70px;
-      }
+    }
 
     .navbar-expand-lg {
       display: none;
     }
 
-    .img-right img{
+    .img-right img {
       width: 365px;
       height: auto;
       position: absolute;
       margin-top: 320px;
       right: 0;
-      float: right; 
+      float: right;
+
+    }
+
+
+    #section2 .container .icon-google-plus-creators img {
+      width: 177.63px;
+      height: auto;
+    }
+
+    #section2 .container .rectangle img {
+      width: 117.63px;
+      height: auto;
+    }
+
+    #section2 .container .icon-google-plus-creators {
+      margin-top: -17px;
+      position: absolute;
+      padding-left: 600px;
+
+    }
+
+    #section2 .container .rectangle {
+      margin-top: -55px;
+      position: absolute;
+      padding-left: 600px;
+
+    }
+
+    .content-sub-2 h1 {
+      display: none;
+    }
+
+    #section2 .content-sub-2 {
+      margin-top: 400px;
+    }
+
+    .btn-second {
+      display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+
+      .content-1 .container .row {
+        flex-direction: column;
+      }
+      .content-sub p {
+        margin-top: 120px;
+      }
+      .content-sub h2 {
+        font-size: 24px;
+        padding: 1px;
       
+      }
+
+      .btn-second {
+        display: none;
+      }
+
+      .img-right img {
+        width: 365px;
+        position: absolute;
+        margin-right: 0;
+        right: 0%;
+        float: right;
+      }
+
+      #section2 .content-subscription {
+        font-size: 15px;
+        text-align: left;
+        padding: 10px;
+        margin-left: 10px;
+        left: 0;
+        margin-top: 620px;
+        max-width: 97%;
+        font-weight: 600;
+      }
+
+      .logo-google{
+        margin-top: -230px;
+      }
+
+      #section2 button {
+        display: none;
+      }
+
+      .logo{
+        background: url("assets/logo-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 15px;
+      
+      }
+
     }
-
-    
-    #section2 .container .icon-google-plus-creators  img{
-      width: 177.63px;
-      height: auto;
-    }
-
-    #section2 .container .rectangle  img{
-      width: 177.63px;
-      height: auto;
-    }
-
-  #section2 .container .icon-google-plus-creators, .rectangle{
-    margin-top: -125px;
-    position: absolute;
-    padding-left: 600px;
-    
-  }
-
-    .btn-second{
-display: none;    }
   }
 </style>
