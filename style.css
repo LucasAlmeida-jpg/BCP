@@ -117,64 +117,37 @@ html {
   .card {
     background: linear-gradient(105.38deg, #232323 -3.41%, rgba(35, 35, 35, 0) 86.72%);
     border-radius: 16px;
-    width: 980px;
     border: none;
-    margin-bottom: 120px;
-  }
-
-  .card-modules {
-    background: #363636;
-    border-radius: 16px;
-    width: 980px;
-    border: none;
-    margin-bottom: -29px;
-  }
-
-  .info-modules-2 {
-    background-color: #232323;
-    border-radius: 0px 16px 16px 0px;
-  }
-
-  .card img {
-    display: flex;
-    float: right;
-    margin-right: -12px;
-  }
-
-  .first-col {
-    align-items: center;
-    display: flex;
     font-size: 22px;
     font-weight: 600;
     color: white;
-    margin-left: 56px;
-    margin-top: 140px;
+    margin-bottom: 120px;
   }
 
-  .first-col .number {
+
+  .card img{
+    width: 570px;
+    height: auto;
+    
+  }
+
+  .card .card-title {
     color: #FFFFFF;
-    position: absolute;
     font-weight: 900;
-    margin-bottom: 240px;
     font-size: 30px;
     background-color: #000000;
     border-radius: 50%;
-    width: 50px;
-    height: 49px;
+    width: 70px;
+    height: 70px;
     text-align: center;
+    padding-top: 18px;
+   
   }
-
-  .first-col .module {
-    color: #FFFFFF;
-    position: absolute;
-    font-weight: 900;
-    margin-bottom: 315px;
-    font-size: 30px;
-    border-radius: 50%;
-    width: 30px;
-    height: 49px;
-    text-align: center;
+  .card .card-body{
+   padding: 45px;
   }
+/*
+  
 
   .card-modules .info-modules h3 {
     font-size: 24px;
@@ -189,7 +162,7 @@ html {
 
   .card-modules .info-modules p {
     font-size: 16px;
-  }
+  } */
 
 
   .sec-card {
@@ -203,14 +176,24 @@ html {
 
   .superior {
     position: absolute;
-    right: -36px;
-    bottom: -30px;
+    right: -44px;
+    bottom: -44px;
   }
+
+  .animation-right .superior{
+   width: 160px;
+   height: auto;
+  }
+
+  .animation-left .inferior{
+    width: 160px;
+    height: auto;
+   }
 
   .inferior {
     position: absolute;
-    left: -80px;
-    bottom: -70px;
+    left: -66px;
+    bottom: -50px;
     z-index: -1;
   }
 
@@ -541,7 +524,6 @@ html {
 
     .img-right img {
       width: 365px;
-      height: auto;
       position: absolute;
       margin-top: 320px;
       right: 0;
@@ -624,16 +606,12 @@ html {
         margin-top: -230px;
       }
 
-    
-
       .logo{
         background: url("assets/logo-mobile.png");
         background-repeat: no-repeat;
         background-position: center center;
         margin-bottom: 15px;
       }
-
-  
     
       #section2 .container .space-icon{
         margin-top: 240px;
@@ -643,12 +621,11 @@ html {
         padding: auto;
         margin-left: auto;
         margin-right: auto; 
+        margin-bottom: -310px;
       } 
       .btn{
         margin-right: 0px;
       }
-
       
-    
     }
   }
