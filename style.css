@@ -600,11 +600,27 @@ span a {
 
     .content-sub h2 {
       font-size: 24px;
+      padding: 2px;
 
     }
 
     .first-section h4 {
       color: #363636;
+    }
+
+    .first-part  p, span a {
+      font-size: 16px;
+    }
+
+    .card-body button {
+      padding: 12px 90px;
+      text-align: center;
+      font-size: 17px;
+      
+    }
+
+    .first-part .title {
+      font-size: 24px;
     }
 
     .img-right img {
