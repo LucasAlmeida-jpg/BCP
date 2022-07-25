@@ -592,9 +592,7 @@ span a {
 
   @media screen and (max-width: 600px) {
 
-    .content-1 .container .row {
-      flex-direction: column;
-    }
+   
 
     .content-sub p {
       margin-top: 120px;
@@ -602,8 +600,11 @@ span a {
 
     .content-sub h2 {
       font-size: 24px;
-      padding: 1px;
 
+    }
+
+    .first-section h4 {
+      color: #363636;
     }
 
     .img-right img {
@@ -646,6 +647,14 @@ span a {
 
     .btn {
       margin-right: 0px;
+    }
+  
+    .first-section .container {
+      padding-bottom: 250px;
+   
+    }
+    .first-part .container .logo-google {
+      width: 20px;
     }
 
   }
