@@ -5,6 +5,9 @@ html {
 body {
   background-color: #000000;
 }
+.carrousel .flickity-viewport{
+  overflow: visible;
+}
 
 .btn,
 .btn-form {
@@ -185,7 +188,7 @@ body {
   margin-top: 120px;
 }
 
-.carrousel h1 {
+.carousel h1 {
   color: #E3E3E3;
   font-size: 35px;
   font-weight: 600;
@@ -669,9 +672,7 @@ span a {
       padding-bottom: 250px;
    
     }
-    .first-part .container .logo-google {
-      width: 20px;
-    }
+  
 
   }
 }
