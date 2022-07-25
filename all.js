@@ -12,3 +12,12 @@ document.querySelectorAll('.accordion__button').forEach(button => {
         }
     })  
 })
+
+$(window).scroll(function() {
+    var math = $(window).scrollTop() / 750% Math.PI;
+    $('#leftgear').css({ transform: 'rotate(' + math + 'rad)' });
+    $('#rightgear').css({ transform: 'rotate(-' + math + 'rad)' });
+    $('#leftge').css({ transform: 'rotate(-' + math + 'rad)' });
+    $('#rightg').css({ transform: 'rotate(-' + math + 'rad)' });
+    $('#right').css({ transform: 'rotate(' + math + 'rad)' });
+    });
