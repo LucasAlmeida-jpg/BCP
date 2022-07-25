@@ -430,37 +430,33 @@ footer .footer-links .footer-link {
   color: white;
   border: none;
   border-radius: 30px;
-  margin-bottom: none;
-
 }
 
 .modal-header p {
   font-weight: 800;
   font-size: 35px;
   margin-left: 40px;
-  margin-bottom: -20px;
+  margin-bottom: -31px;
 }
 
 .modal-body p {
   font-weight: 770;
-  font-size: 24px;
+  font-size: 20px;
   color: rgb(124, 115, 115);
   margin-left: 40px;
-  margin-bottom: -5px;
+  margin-bottom: -20px;
 }
 
 .modal-content {
   width: 640px;
   justify-content: center;
-  position: absolute;
 }
 
 
 .modal-footer {
   padding-right: 60px;
   text-align: center;
-  margin-top: -50px;
-  margin-bottom: 20px;
+  margin-top: -70px;
 }
 
 .first-part {
