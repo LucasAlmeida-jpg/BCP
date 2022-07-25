@@ -263,6 +263,7 @@ body {
   border-radius: 20px;
   width: 440px;
   height: 525px;
+  object-fit: cover;
 }
 
 .carousel-cell h4 {
