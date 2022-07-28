@@ -499,9 +499,6 @@ footer .footer-links .footer-link {
   margin-top: 120px;
 }
 
-.modules button {
-  margin-top: -160px;
-}
 
 .modules .col-md-8 {
   background-color: #363636;
@@ -577,6 +574,15 @@ span a {
 
 }
 
+.logo-mobile {
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+display: none;
+}
+
+
 @-webkit-keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
@@ -587,9 +593,10 @@ span a {
   }
 }
 
-
 @media screen and (max-width: 600px) {
-
+  .container {
+    overflow: hidden;
+  }
   .btn-second {
     display: none;
   }
@@ -663,11 +670,10 @@ span a {
     font-weight: 600;
   }
 
-  .logo {
-    background: url("assets/logo-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin-bottom: 15px;
+  .logo-mobile {
+    display: flex;
+    margin-bottom: 30px;
+
   }
 
   #section2 .container .space-icon {
@@ -765,7 +771,7 @@ span a {
   margin-left: -20px;
   margin-left: 74px;
   }
-  
+
    .brand-title{
     display: none;
   } 
@@ -784,9 +790,9 @@ span a {
   
     footer h1 {
       position: absolute;
-      float: left;
       padding-bottom: 52px;
       margin-top: -22px;
+      margin-left: -22px
     }
     footer  .footer{
       color: #FFFFFF; 
