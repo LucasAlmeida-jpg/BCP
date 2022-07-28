@@ -620,7 +620,6 @@ display: none;
   .info-left h4 {
     font-size: 25px;
     display: flex;
-    color: #FFFFFF;
     position: absolute;
   }
 
@@ -630,7 +629,7 @@ display: none;
 
 
   .first-section h4 {
-    color: #363636;
+    color: #4d4d4d;
   }
 
   .first-part p,
@@ -733,40 +732,46 @@ display: none;
 
   .navbar {
     background-color: #141414;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    padding: 30px;
   }
 
   .navbar-links ul {
-    background-color: #141414;
     flex-direction: column;
-  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
-  .navbar-links li {
-    justify-content: center;
-    align-items: center;
-    display: block;
-    line-height: 30px;
+  .navbar button {
+    display: none;
   }
+
   .navbar-links li a{
     padding: .5rem 1rem;
   }
   .navbar-links.active{
     display: flex;
+    }
 
-  }
-
-
+.first-section .logo-mobile img {
+  width: 300px;
+  height: auto;
+}
  .mainly-icon .player img {
   position: absolute;
   top: 0px;
-  margin-top: 660px;
+  margin-top: 620px;
   width: 170px;
   margin-left: -29px;
 }
 .mainly-icon .rectangle img {
   position: absolute;
   top: 0px;
-  margin-top: 690px;
+  margin-top: 650px;
   width: 70px;
   margin-left: -20px;
   margin-left: 74px;
