@@ -4,7 +4,8 @@
   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <link rel="stylesheet" href="style.css">
@@ -14,30 +15,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Creators</title>
   <title>Creators BCP</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid ">
-      <a class="navbar-brand " href="#how-does-it-work"><img src="assets/logo.png" alt=""></a>
-      <div class="navbar ">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+      <a class="navbar-brand" href="#how-does-it-work"><img src="assets/logo.png" alt=""></a>
+      <div class="navbar offset-md-1">
+        <ul class="navbar-nav">
+          <li>
             <a class="nav-link" href="#how-does-it-work">Como funciona </a>
           </li>
-          <li class="nav-item">
+          <li>
             <a class="nav-link" href="#how-to-participate">Como participar </a>
           </li>
-          <li class="nav-item">
+          <li>
             <a class="nav-link" href="#mentor">Mentores</a>
           </li>
-          <li class="nav-item">
+          <li>
             <a class="nav-link" href="#schedule">Programação</a>
           </li>
-          <li class="nav-item">
+          <li>
             <a class="nav-link" href="#FAQ">FAQ</a>
           </li>
         </ul>
@@ -65,52 +64,106 @@
         </div>
       </div>
     </div>
+  </nav> -->
+
+
+  <nav class="navbar">
+    <div class="brand-title">
+      <a href="#how-does-it-work"><img src="assets/logo.png" alt=""></a>
+    </div>
+    <a href="#" class="toggle-button">
+      <img src="assets/hamburger.png" alt="">
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li>
+          <a href="#how-does-it-work">Como funciona </a>
+        </li>
+        <li>
+          <a href="#how-to-participate">Como participar </a>
+        </li>
+        <li>
+          <a href="#mentor">Mentores</a>
+        </li>
+        <li>
+          <a href="#schedule">Programação</a>
+        </li>
+        <li>
+          <a href="#FAQ">FAQ</a>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="btn btn-primary justify-content-flexend" data-bs-toggle="modal"
+      data-bs-target="#exampleModal">Inscrever-se</button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p class="modal-title" id="exampleModalLabel"> <img src="assets/logo-mobile.png" alt=""> </p>
+          </div>
+          <div class="modal-body">
+            <p>Seu conteúdo, sua empresa.</p>
+          </div>
+          <div class="form">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/viewform?embedded=true"
+              width="640" height="580" frameborder="0" marginheight="0" marginwidth="0" color="white"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a Landing</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
   </nav>
 
-<section class="first-section">
-  <div class="container">
-    <div class="row">
-      <div class="logo">.</div>
-      <div class="col-6 info-left">
-        <h1>Black<br /> Creators<br /> Program </h1>
-        <div class="content">
-          <h4>Seu conteúdo, sua empresa</h4>
-        </div>
-        <div class="content-sub">
-          <img class="arrow-img" src="assets/arrow.png" alt="arrow Saiba Mais">
-          <h2>Seja um dos 100 criadores negros mentorados e financiados pelo Google</h2>
-        </div>
-        <div>
-          <button class="btn-second" id="exampleModal"  data-bs-toggle="modal"
-          data-bs-target="#exampleModal">Quero participar</button>
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <p class="modal-title" id="exampleModalLabel"> <img src="assets/logo-mobile.png" alt=""> </p>
-                </div>
-                <div class="modal-body">
-                  <p>Seu conteúdo, sua empresa.</p>
-                </div>
-                <div class="form">
-                  <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/viewform?embedded=true"
-                    width="640" height="580" frameborder="0" marginheight="0" marginwidth="0" color="white"></iframe>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a Landing</button>
+  <section class="first-section">
+    <div class="container">
+      <div class="row">
+        <div class="logo"></div>
+        <div class="col-6 info-left">
+          <h1>Black<br /> Creators<br /> Program </h1>
+          <div class="content">
+            <h4>Seu conteúdo, sua empresa</h4>
+          </div>
+          <div class="content-sub">
+            <img class="arrow-img" src="assets/arrow.png" alt="arrow Saiba Mais">
+            <h2>Seja um dos 100 criadores negros mentorados e financiados pelo Google</h2>
+          </div>
+          <div>
+            <button class="btn-second" id="exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Quero
+              participar</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <p class="modal-title" id="exampleModalLabel"> <img src="assets/logo-mobile.png" alt=""> </p>
+                  </div>
+                  <div class="modal-body">
+                    <p>Seu conteúdo, sua empresa.</p>
+                  </div>
+                  <div class="form">
+                    <iframe
+                      src="https://docs.google.com/forms/d/e/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/viewform?embedded=true"
+                      width="640" height="580" frameborder="0" marginheight="0" marginwidth="0" color="white"></iframe>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a
+                      Landing</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-6 img-right container">
-        <img src="./assets/First.jpg" alt="">
+        <div class="col-6 img-right container">
+          <img src="./assets/First.jpg" alt="">
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <section class="first-part">
     <div class="container">
@@ -126,39 +179,41 @@
                         LLC</a></span>, o Black Creator Program convidará 100 criadores negros para durante 6 meses
                     receberem financiamento, orientação, educação e muito mais, construindo uma presença de sucesso na
                     web, elevando suas carreiras digitais para o próximo nível.</p>
-                    <div>
-                      <button class="btn" id="exampleModal"  data-bs-toggle="modal"
+                  <div>
+                    <button class="btn" id="exampleModal" data-bs-toggle="modal"
                       data-bs-target="#exampleModal">Inscreva-se agora</button>
-                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <p class="modal-title" id="exampleModalLabel"> <img src="assets/logo-mobile.png" alt=""> </p>
-                            </div>
-                            <div class="modal-body">
-                              <p>Seu conteúdo, sua empresa.</p>
-                            </div>
-                            <div class="form">
-                              <iframe
-                                src="https://docs.google.com/forms/d/e/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/viewform?embedded=true"
-                                width="640" height="580" frameborder="0" marginheight="0" marginwidth="0" color="white"></iframe>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a Landing</button>
-                            </div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <p class="modal-title" id="exampleModalLabel"> <img src="assets/logo-mobile.png" alt="">
+                            </p>
+                          </div>
+                          <div class="modal-body">
+                            <p>Seu conteúdo, sua empresa.</p>
+                          </div>
+                          <div class="form">
+                            <iframe
+                              src="https://docs.google.com/forms/d/e/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/viewform?embedded=true"
+                              width="640" height="580" frameborder="0" marginheight="0" marginwidth="0"
+                              color="white"></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a
+                              Landing</button>
                           </div>
                         </div>
                       </div>
                     </div>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
-                  <div class="card-body">
-                    <div class="logo-google">
+                <div class="card-body">
                     <img src="assets/icon.png" id="rightgear" alt="icone Play Google + Creators">
-                  <div class="rectangle card-body">
-                    <img src="assets/rectangle.png" alt="">
-                  </div>
+                    <div class="rectangle card-body">
+                      <img src="assets/rectangle.png" alt="icone ">
                   </div>
                 </div>
               </div>
@@ -184,7 +239,7 @@
               </div>
               <div class="col-md-6 animation-right">
                 <img src="assets/cards/pic1.png" class="img-fluid rounded-start" alt="...">
-                <img class="superior" src="assets/cards/icons/icon-1.png" alt="" id="leftgear" >
+                <img class="superior" src="assets/cards/icons/icon-1.png" alt="" id="leftgear">
               </div>
             </div>
           </div>
@@ -204,7 +259,7 @@
               </div>
               <div class="col-md-6 order-md-1 animation-left">
                 <img src="assets/cards/pic2.png" class="img-fluid rounded" alt="...">
-                <img class="inferior" src="assets/cards/icons/icon-2.png"  alt="..." id="rightg" >
+                <img class="inferior" src="assets/cards/icons/icon-2.png" alt="..." id="rightg">
 
               </div>
             </div>
@@ -225,7 +280,7 @@
               </div>
               <div class="col-md-6 animation-right">
                 <img src="assets/cards/pic3.png" class="img-fluid rounded-start" alt="...">
-                <img class="superior " src="assets/cards/icons/icon-3.png" alt="" id="leftge" >
+                <img class="superior " src="assets/cards/icons/icon-3.png" alt="" id="leftge">
               </div>
             </div>
           </div>
@@ -284,9 +339,10 @@
       </div>
       <div class="col-md-10 offset-md-1 p-20">
         <div>
-          <button class="btn-second" id="exampleModal"  data-bs-toggle="modal"
-          data-bs-target="#exampleModal">Inscreva-se agora</button>
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <button class="btn-second" id="exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Inscreva-se
+            agora</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -301,7 +357,8 @@
                     width="640" height="580" frameborder="0" marginheight="0" marginwidth="0" color="white"></iframe>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a Landing</button>
+                  <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a
+                    Landing</button>
                 </div>
               </div>
             </div>
@@ -310,12 +367,12 @@
       </div>
     </div>
   </section>
-<div class="container carousel">
-  <div class="col-md-10 offset-md-1">
-    <h1>Aprenda com especialistas <br>
-      em presença na web</h1>
+  <div class="container carousel">
+    <div class="col-md-10 offset-md-1">
+      <h1>Aprenda com especialistas <br>
+        em presença na web</h1>
+    </div>
   </div>
-</div>
   <div class="container-fluid carrousel" id="mentor" style="overflow: hidden">
     <div class="carousel col" data-flickity='{ "groupCells": true }' style="overflow: visible">
       <div class="carousel-cell">
@@ -849,9 +906,10 @@
       <h1 class="col-md-10 offset-md-1">Faça parte dos 100 criadores <br> negros mentorados pelo Google</h1>
       <div class="col-md-10 offset-md-1">
         <div>
-          <button class="btn-second" id="exampleModal"  data-bs-toggle="modal"
-          data-bs-target="#exampleModal">Inscreva-se agora</button>
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <button class="btn-second" id="exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Inscreva-se
+            agora</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -866,7 +924,8 @@
                     width="640" height="580" frameborder="0" marginheight="0" marginwidth="0" color="white"></iframe>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a Landing</button>
+                  <button type="button" class="btn-form btn-primary" data-bs-dismiss="modal">Voltar para a
+                    Landing</button>
                 </div>
               </div>
             </div>

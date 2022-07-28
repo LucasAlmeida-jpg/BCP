@@ -21,3 +21,10 @@ $(window).scroll(function() {
     $('#rightg').css({ transform: 'rotate(-' + math + 'rad)' });
     $('#right').css({ transform: 'rotate(' + math + 'rad)' });
     });
+
+
+    const toggleButton = document.getElementsByClassName('toggle-button') [0]
+    const navbarLinks = document.getElementsByClassName('navbar-links') [0]
+    toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+    })

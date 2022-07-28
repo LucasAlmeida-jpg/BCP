@@ -5,7 +5,8 @@ html {
 body {
   background-color: #000000;
 }
-.carrousel .flickity-viewport{
+
+.carrousel .flickity-viewport {
   overflow: visible;
 }
 
@@ -29,9 +30,41 @@ body {
   border: none;
 }
 
-.navbar {
-  margin-right: 40px;
-  margin-top: 20.71px;
+.brand-title a img{
+  margin-left: 160px;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-weight: 600;
+}
+
+.navbar-links li{
+  list-style: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 1rem;
+  display: block;
+}
+
+.toggle-button{
+  position: absolute;
+  top: .60rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: auto;
+}
+
+.navbar-links li:hover {
+  text-decoration: underline;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -292,7 +325,7 @@ body {
 
 }
 
- .information h1{
+.information h1 {
   color: white;
   margin-bottom: 40px;
 }
@@ -465,6 +498,7 @@ footer .footer-links .footer-link {
   margin-bottom: 160px;
   margin-top: 120px;
 }
+
 .modules button {
   margin-top: -160px;
 }
@@ -473,25 +507,29 @@ footer .footer-links .footer-link {
   background-color: #363636;
   border-radius: 18px 0px 0px 18px;
 }
-.modules .col-md-4{
+
+.modules .col-md-4 {
   background-color: #232323;
-  border-radius:  0px 18px 18px 0px;
+  border-radius: 0px 18px 18px 0px;
   padding-left: 34px;
-  
+
 }
+
 .modules .info-teacher {
   align-items: center;
 }
+
 .modules .col-md-4 .info-teacher .img-left {
   margin-right: 12px;
 }
-.modules .col-md-4 .info-right h2{
-   font-size: 12px;
-   text-transform: uppercase;
-   font-weight: 100;
+
+.modules .col-md-4 .info-right h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 
-.modules .col-md-4 .info-right h3{
+.modules .col-md-4 .info-right h3 {
   font-size: 16px;
 }
 
@@ -508,7 +546,7 @@ footer .footer-links .footer-link {
   margin: 34px 0px;
 }
 
-.modules .row  {
+.modules .row {
   margin-top: -50px;
 }
 
@@ -526,9 +564,17 @@ span a {
   margin-bottom: 24px;
 }
 
-.logo-google {
+.logos img {
   width: 339.47px;
-  height: 300px;
+  height: auto;
+  position: absolute;
+}
+
+.rectangle img{
+  width: 140px;
+  height: auto;
+  position: absolute;
+
 }
 
 @-webkit-keyframes rotation {
@@ -542,20 +588,20 @@ span a {
 }
 
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
-    .btn-second {
-      display: none;
-    }
-  
-    .img-right img {
-      width: 365px;
-      position: absolute;
-      margin-top: 320px;
-      right: 0;
-      float: right;
-    }
-  
+  .btn-second {
+    display: none;
+  }
+
+  .img-right img {
+    width: 365px;
+    position: absolute;
+    margin-top: 320px;
+    right: 0;
+    float: right;
+  }
+
 
   .content-sub h2 {
     font-size: 28px;
@@ -563,133 +609,180 @@ span a {
     text-align: start;
     margin-top: 70px;
   }
-    
-    .info-left h4 {
-      font-size: 25px;
-      display: flex;
-      color: #FFFFFF;
-      position: absolute;
-    }
-    .content-sub p {
-      margin-top: 120px;
-    }
 
-   
+  .info-left h4 {
+    font-size: 25px;
+    display: flex;
+    color: #FFFFFF;
+    position: absolute;
+  }
 
-    .first-section h4 {
-      color: #363636;
-    }
-
-    .first-part  p, span a {
-      font-size: 16px;
-    }
-
-    .card-body button {
-      padding: 12px 90px;
-      text-align: center;
-      font-size: 17px;
-      
-    }
-
-    .first-part .title {
-      font-size: 24px;
-    }
-
-    .img-right img {
-      width: 365px;
-      position: absolute;
-      margin-right: 0;
-      right: 0%;
-      float: right;
-    }
-
-    #section2 .content-subscription {
-      font-size: 15px;
-      text-align: left;
-      padding: 10px;
-      margin-left: 10px;
-      left: 0;
-      margin-top: 620px;
-      max-width: 97%;
-      font-weight: 600;
-    }
+  .content-sub p {
+    margin-top: 120px;
+  }
 
 
-    .logo {
-      background: url("assets/logo-mobile.png");
-      background-repeat: no-repeat;
-      background-position: center center;
-      margin-bottom: 15px;
-    }
+  .first-section h4 {
+    color: #363636;
+  }
 
-    #section2 .container .space-icon {
-      margin-top: 240px;
-      justify-content: center;
-      align-items: center;
-      display: block;
-      padding: auto;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: -310px;
-    }
+  .first-part p,
+  span a {
+    font-size: 19px;
+    text-align: left;
+  }
 
-    .btn {
-      margin-right: 0px;
-    }
-  
-    .first-section .container {
-      padding-bottom: 250px;
-   
-    }
-
-    .program .container {
-      padding: 10px;
-    }
-
-    .container p{
-      font-size: 16px;
-    }
-    .container h1 {
-      font-size: 25px;
-    }
-  
-     .modules .col-md-8 {
-      border-radius: 20px 20px 0px 0px;
-    }
-    .modules .col-md-4 {
-      border-radius: 0px 0px 20px 20px;
-    }
-    .modules .container {
-      padding: 25px;
-      
-    }
-    .modules button {
-      padding: 12px 90px;
-      text-align: center;
-      font-size: 17px;
-      margin: 0 auto;
-    }
-
-    
-.navbar img, ul li{
-  display: none;
-}
-.navbar {
-  position: fixed;
-  bottom: 0px;
-  z-index: 1;
-  padding-right: 105px;
-}
-
-.navbar {
-  /* background: #0F0F0F99; */
-  background-color: white;
-  
-}
-
-.navbar button {
-  padding: 8px;
-
-}
+  .card-body button {
+    padding: 12px 90px;
+    text-align: center;
+    font-size: 17px;
+    margin: 0 auto;
 
   }
+
+  .first-part .title {
+    font-size: 24px;
+  }
+
+  .img-right img {
+    width: 365px;
+    position: absolute;
+    margin-right: 0;
+    right: 0%;
+    float: right;
+  }
+
+  #section2 .content-subscription {
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    margin-left: 10px;
+    left: 0;
+    margin-top: 620px;
+    max-width: 97%;
+    font-weight: 600;
+  }
+
+  .logo {
+    background: url("assets/logo-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 15px;
+  }
+
+  #section2 .container .space-icon {
+    margin-top: 240px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -310px;
+  }
+
+
+  .first-section .container {
+    padding-bottom: 250px;
+  }
+
+  .program .container {
+    padding: 10px;
+  }
+
+  .container p {
+    font-size: 16px;
+  }
+
+  .container h1 {
+    font-size: 25px;
+  }
+
+  .modules .col-md-8 {
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .modules .col-md-4 {
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .modules .container {
+    padding: 25px;
+  }
+
+  .modules button {
+    padding: 12px 90px;
+    text-align: center;
+    font-size: 17px;
+    margin: 0 auto;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar {
+    background-color: #141414;
+  }
+
+  .navbar-links ul {
+    background-color: #141414;
+    flex-direction: column;
+  
+  }
+
+  .navbar-links li {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    line-height: 30px;
+  }
+  .navbar-links li a{
+    padding: .5rem 1rem;
+  }
+  .navbar-links.active{
+    display: flex;
+
+  }
+ 
+  
+#leftge, #leftgear{
+  width: 120px;
+  position: absolute;
+  margin-right: 23px;
+}
+    
+ .brand-title{
+  display: none;
+} 
+
+
+  .first-part .title {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 24px;
+    margin-top: 40px;
+  }
+
+  footer img {
+    display: none;
+  }
+
+  footer h1 {
+    color: red;
+    display: flex;
+  }
+  footer  .footer{
+    color: #FFFFFF; 
+    font-size: 10px;
+    flex-direction: column;
+    left: 0;
+    align-items: flex-start;
+  }
+
+  
+}
