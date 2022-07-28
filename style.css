@@ -743,10 +743,7 @@ span a {
 
   .navbar-links ul {
     flex-direction: column;
-    padding: 20px;
-    display: flex;
-  justify-content: center;
-
+    padding-left: 20px;
   }
 
   .navbar button {
@@ -763,7 +760,6 @@ span a {
 
   .navbar-links li a:hover{
     text-decoration: underline;
-    font-size: 18px;
   }
   .navbar.active {
     height: 100vh;
