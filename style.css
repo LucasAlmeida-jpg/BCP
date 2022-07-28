@@ -232,8 +232,8 @@ body {
 .rectangle img {
   position: absolute;
   width: 160px;
-  margin-top: -250px;
-  margin-left: 170px;
+  margin-top: -230px;
+  margin-left: 179px;
 }
 
 .box-info {
@@ -748,41 +748,56 @@ span a {
     display: flex;
 
   }
- 
-  
-#leftge, #leftgear{
-  width: 120px;
+
+
+ .mainly-icon .player img {
   position: absolute;
-  margin-right: 23px;
+  top: 0px;
+  margin-top: 620px;
+  width: 170px;
+  margin-left: -29px;
 }
-    
- .brand-title{
-  display: none;
-} 
-
-
-  .first-part .title {
-    color: white;
-    font-size: 35px;
-    margin-bottom: 24px;
-    margin-top: 40px;
+.mainly-icon .rectangle img {
+  position: absolute;
+  top: 0px;
+  margin-top: 650px;
+  width: 70px;
+  margin-left: -20px;
+  margin-left: 74px;
   }
-
-  footer img {
-    display: none;
-  }
-
-  footer h1 {
-    color: red;
-    display: flex;
-  }
-  footer  .footer{
-    color: #FFFFFF; 
-    font-size: 10px;
-    flex-direction: column;
-    left: 0;
-    align-items: flex-start;
-  }
-
   
+   .brand-title{
+    display: none;
+  } 
+  
+  
+    .first-part .title {
+      color: white;
+      font-size: 35px;
+      margin-bottom: 24px;
+      margin-top: 40px;
+    }
+  
+    footer img {
+      display: none;
+    }
+  
+    footer h1 {
+      position: absolute;
+      float: left;
+      padding-bottom: 52px;
+      margin-top: -22px;
+    }
+    footer  .footer{
+      color: #FFFFFF; 
+      font-size: 10px;
+      flex-direction: column;
+      left: 0;
+      align-items: flex-start;
+      position: absolute;
+     
+    }
+
+ 
 }
+
