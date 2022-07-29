@@ -835,11 +835,14 @@ span a {
 
 
   footer .hide-desktop {
-    display: block;
+    display: flex;
     position: absolute;
     width: 190px;
-    margin-top: -65px;
-    margin-left: -50px;
+    padding: 30px;
+    align-items: flex-start;
+    margin-top: -70px;
+    float: left;
+    margin-left: -100px;
   }
  
   footer .footer-links img{
