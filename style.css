@@ -6,6 +6,17 @@ body {
   background-color: #000000;
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+  
+}
 .carrousel .flickity-viewport {
   overflow: visible;
 }
@@ -446,6 +457,7 @@ footer .footer-links ul li {
 footer .footer-links .footer-link {
   text-decoration: none;
   color: #FFFFFF;
+
 }
 
 footer .image-footer{
@@ -836,17 +848,11 @@ span a {
 
   footer .hide-desktop {
     display: flex;
-    position: absolute;
     width: 190px;
     padding: 30px;
     align-items: flex-start;
-    margin-top: -70px;
     float: left;
-    margin-left: -100px;
-  }
- 
-  footer .footer-links img{
-    display: none;
+   
   }
 
   .modules .title, .questionnaire h1  {
@@ -892,8 +898,6 @@ span a {
 
 footer .footer-links .footer {
   font-size: 16px;
-  flex-wrap: wrap;
-  gap: 12px;
 }
 
 .card-body{
@@ -902,4 +906,5 @@ footer .footer-links .footer {
 .modules .title {
   margin-left: -12px;
 }
+
 }
