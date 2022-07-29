@@ -878,7 +878,9 @@ span a {
 }
 
 .submit-button{
-  margin-top: -100px;
+  margin-top: -90px;
+  position: absolute;
+  display: block;
 }
 
 
