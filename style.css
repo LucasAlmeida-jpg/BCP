@@ -650,7 +650,7 @@ span a {
     text-align: center;
     font-size: 17px;
     margin: 0 auto;
-    display: block;
+    position: absolute;
 
   }
 
@@ -705,8 +705,8 @@ span a {
 
   .container h6 {
     font-size: 25px;
-    position: absolute;
-    margin-top: -84px;
+    display: block;
+    margin-top: -10px;
     color: white;
 }
 
