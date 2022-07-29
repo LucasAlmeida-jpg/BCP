@@ -230,6 +230,14 @@ body {
   margin-top: 133px;
 }
 
+ .program h6 {
+  color: #E3E3E3;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 70px;
+  margin-top: 133px;
+}
+
 .rectangle img {
   position: absolute;
   width: 160px;
@@ -257,7 +265,7 @@ body {
 .information h1 {
   color: white;
   font-size: 35px;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
 .information button {
@@ -326,10 +334,7 @@ body {
 
 }
 
-.information h1 {
-  color: white;
-  margin-bottom: 40px;
-}
+
 
 .program h1 {
   color: white;
@@ -613,7 +618,7 @@ span a {
 
 
   .content-sub h2 {
-    font-size: 28px;
+    font-size: 25px;
     position: absolute;
     text-align: start;
     margin-top: 70px;
@@ -646,10 +651,6 @@ span a {
     font-size: 17px;
     margin: 0 auto;
 
-  }
-
-  .first-part .title {
-    font-size: 24px;
   }
 
   .img-right img {
@@ -701,9 +702,16 @@ span a {
     font-size: 16px;
   }
 
-  .container h1 {
+  .container h6 {
     font-size: 25px;
-  }
+    position: absolute;
+    margin-top: -84px;
+    color: white;
+}
+
+.information h1 {
+  font-size: 25px;
+}
 
   .modules .col-md-8 {
     border-radius: 20px 20px 0px 0px;
@@ -716,6 +724,14 @@ span a {
   .modules .container {
     padding: 25px;
   }
+
+  
+.carousel h1 {
+    color: #E3E3E3;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top:50px;
+}
 
   .modules button {
     padding: 12px 90px;
@@ -769,10 +785,13 @@ span a {
     display: flex;
   }
 
+
+
   .first-section .logo-mobile img {
     width: 300px;
     height: auto;
   }
+
 
   .mainly-icon .player img {
     position: absolute;
@@ -786,7 +805,7 @@ span a {
     position: absolute;
     top: 0px;
     margin-top: 650px;
-    width: 70px;
+    width: 90px;
     margin-left: -20px;
     margin-left: 74px;
   }
@@ -797,7 +816,7 @@ span a {
 
   .first-part .title {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 24px;
     margin-top: 40px;
   }
@@ -818,10 +837,49 @@ span a {
     font-size: 10px;
     flex-direction: column;
     left: 0;
-    align-items: flex-start;
+    
     position: absolute;
 
   }
+
+  .modules .title, .questionnaire h1  {
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.container p {
+  font-size: 15px;
+}
+.box-info p {
+  margin-left: 13px;
+  margin-top: 12px;
+}
+.box-info {
+  padding: 3px;
+  
+}
+
+.btn-second {
+  display: block;
+  padding: 12px 90px;
+  text-align: center;
+  font-size: 17px;
+  margin: 0 auto;
+}
+
+.hide{
+  display: none;
+}
+
+.last button {
+  position: absolute;
+}
+
+.submit-button{
+  margin-top: -100px;
+}
+
+
 
 
 }

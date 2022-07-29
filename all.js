@@ -27,4 +27,8 @@ $(window).scroll(function() {
     const navbar = document.getElementsByClassName('navbar') [0]
     toggleButton.addEventListener('click', () => {
         navbar.classList.toggle('active')
+
+        $('.navbar a').click(function(){
+            $(".navbar").collapse('hide');
+        });
     })
