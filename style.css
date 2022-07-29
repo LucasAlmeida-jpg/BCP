@@ -808,8 +808,6 @@ span a {
     display: flex;
   }
 
-
-
   .first-section .logo-mobile img {
     width: 300px;
     height: auto;
@@ -842,17 +840,6 @@ span a {
     font-size: 25px;
     margin-bottom: 24px;
     margin-top: 40px;
-  }
-
-
-
-  footer .hide-desktop {
-    display: flex;
-    width: 190px;
-    padding: 30px;
-    align-items: flex-start;
-    float: left;
-   
   }
 
   .modules .title, .questionnaire h1  {
@@ -906,5 +893,15 @@ footer .footer-links .footer {
 .modules .title {
   margin-left: -12px;
 }
+footer a {
+  color: white;
+  text-decoration: none;
 
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+  
+}
 }
