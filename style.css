@@ -230,6 +230,11 @@ body {
   margin-top: 133px;
 }
 
+
+
+.submit-button button{
+  display: none;
+}
  .program h6 {
   color: #E3E3E3;
   font-size: 35px;
@@ -877,10 +882,12 @@ span a {
   position: absolute;
 }
 
-.submit-button{
+.submit-button button{
   margin-top: -90px;
   position: absolute;
   display: block;
+  text-align: center;
+  font-size: 17px;
 }
 
 
