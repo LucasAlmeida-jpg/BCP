@@ -19,66 +19,77 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <div class="brand-title">
-      <a href="#how-does-it-work"><img src="assets/logo.png" alt=""></a>
-    </div>
-    <a href="#" class="toggle-button " data-bs-dismiss="modal">
-      <img src="assets/hamburger.png" alt="">
+  <div class="container">
+    <nav class="navbar">
+      <div class="brand-title">
+        <a href="#how-does-it-work"><img src="assets/logo.png" alt=""></a>
+      </div>
+      <a href="#" class="toggle-button " data-bs-dismiss="modal">
+        <img src="assets/hamburger.png" alt="">
 
-    </a>
-    <div class="navbar-links" data-bs-dismiss="modal">
-      <ul>
-        <li>
-          <a href="#how-does-it-work">Como funciona </a>
-        </li>
-        <li>
-          <a href="#how-to-participate">Como participar </a>
-        </li>
-        <li>
-          <a href="#mentor">Mentores</a>
-        </li>
-        <li>
-          <a href="#schedule">Programação</a>
-        </li>
-        <li>
-          <a href="#FAQ">FAQ</a>
-        </li>
-      </ul>
-    </div>
-    <button type="button" class="btn btn-primary justify-content-flexend" data-bs-toggle="modal"
-      data-bs-target="#exampleModal">Inscrever-se</button>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <p class="modal-title" id="exampleModalLabel"> </p>
-          </div>
-          <div class="modal-body">
-            <p>Seu conteúdo, sua empresa.</p>
-          </div>
-          <div class="form">
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/viewform?embedded=true"
-              width="640" height="580" frameborder="0" marginheight="0" marginwidth="0" color="white"></iframe>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn-form btn-second" data-bs-dismiss="modal">Voltar para a Landing</button>
+      </a>
+      <div class="navbar-links" data-bs-dismiss="modal">
+        <ul>
+          <li>
+            <a href="#how-does-it-work">Como funciona </a>
+          </li>
+          <li>
+            <a href="#how-to-participate">Como participar </a>
+          </li>
+          <li>
+            <a href="#mentor">Mentores</a>
+          </li>
+          <li>
+            <a href="#schedule">Programação</a>
+          </li>
+          <li>
+            <a href="#FAQ">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-primary justify-content-flexend" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">Inscrever-se</button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <p class="modal-title" id="exampleModalLabel"> </p>
+            </div>
+            <div class="modal-body">
+              <p>Seu conteúdo, sua empresa.</p>
+            </div>
+            <div class="form">
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/viewform?embedded=true"
+                width="640" height="580" frameborder="0" marginheight="0" marginwidth="0" color="white"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-form btn-second" data-bs-dismiss="modal">Voltar para a Landing</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    </div>
+  </div>
   </nav>
+  </div>
 
   <section class="first-section">
-    <div class="container">
+    <div class="container-fluid g-0">
       <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6" style="position: relative">
+          <img class="img-right" src="./assets/First.jpg" alt="woman smiling">
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container g-0">
+      <div class="row g-0">
         <div class="logo-mobile">
           <img src="assets/logo-mobiles.png" alt="">
         </div>
-        <div class="col-6 info-left">
-
+        <div class="col-md-6 info-left">
           <h1>Black<br /> Creators<br /> Program </h1>
           <div class="content">
             <h4>Seu conteúdo, sua empresa</h4>
@@ -88,7 +99,8 @@
             <h2>Seja um dos 100 criadores negros mentorados e financiados pelo Google</h2>
           </div>
           <div>
-            <button class="btn-second hide-mobile" id="exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Quero
+            <button class="btn-second hide-mobile" id="exampleModal" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">Quero
               participar</button>
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
               aria-hidden="true">
@@ -113,9 +125,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-6 img-right container">
-          <img src="./assets/First.jpg" alt="">
         </div>
       </div>
     </div>
@@ -211,14 +220,14 @@
               <div class="col-md-6 order-md-2">
                 <div class="card-body d-flex flex-column justify-content-center h-100">
                   <h5 class="card-title">02</h5>
-                  <p class="card-text-right">Crie seu espaço online, enquanto <br> aprende a usar as melhores <br> práticas e
+                  <p class="card-text-right">Crie seu espaço online, enquanto <br> aprende a usar as melhores <br>
+                    práticas e
                     ferramentas da web</p>
                 </div>
               </div>
               <div class="col-md-6 order-md-1 animation-left">
                 <img src="assets/cards/pic2.png" class="img-fluid rounded" alt="...">
                 <img class="inferior" src="assets/cards/icons/icon-2.png" alt="..." id="rightg">
-
               </div>
             </div>
           </div>
@@ -252,7 +261,8 @@
               <div class="col-md-6 order-md-2">
                 <div class="card-body d-flex flex-column justify-content-center h-100">
                   <h5 class="card-title">04</h5>
-                  <p class="card-text-right">Graduação na sede do Google, <br> kit de conclusão, networking e <br> muito mais
+                  <p class="card-text-right">Graduação na sede do Google, <br> kit de conclusão, networking e <br> muito
+                    mais
                   </p>
                 </div>
               </div>
@@ -425,7 +435,7 @@
           <p>Samuca é criador de conteúdo, escritor, publicitário e consultor de diversidade. Palestra e oferece
             consultoria sobre diversidade e raça por todo o país. Faz parte do 1º Grupo do YouTube Fundo Vozes Negras em
             2021. A Forbes 2020 o considerou como um dos 20 criadores de conteúdo negro mais inovadores. Autor do livro
-            ‘Guardei no Armário’. Foi eleito Top Voices 2019 pelo LinkedIn, é professor na Miami Ad School, jurado da
+            &lsquo;Guardei no Armário&rsquo;. Foi eleito Top Voices 2019 pelo LinkedIn, é professor na Miami Ad School, jurado da
             Ampro Glibes Awards em 2021 e agora faz parte do Círculo de Lideranças da Academia Meio & Mensagem.
           </p>
         </div>
@@ -894,36 +904,36 @@
   </div>
   </div>
 
- <footer>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-6">
-      <h1 class="ps-2">Black <br> Creators  <br class="d-none d-lg-block"> Program</h1>
-      <!-- <img class="" src="assets/footer.png" alt=""> -->
-    </div>
-    <div class="col-lg-6 d-flex align-items-end d-flex flex-column">
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="ps-2">Black <br> Creators <br class="d-none d-lg-block"> Program</h1>
+          <!-- <img class="" src="assets/footer.png" alt=""> -->
+        </div>
+        <div class="col-lg-6 d-flex align-items-end d-flex flex-column">
           <img class=" d-none d-lg-block mb-3" src="assets/develop.png" alt="">
-        <ul class="d-block p-0 ps-2">
-          <li class="d-inline-block me-2">
-            <a class="" href="#how-does-it-work">Como funciona </a>
-          </li>
-          <li class="d-inline-block me-2">
-            <a class="" href="#how-to-participate">Como participar </a>
-          </li>
-          <li class="d-inline-block me-2">
-            <a class="" href="#mentor">Mentores </a>
-          </li>
-          <li class="d-inline-block me-2">
-            <a class="" href="#schedule">Programação </a>
-          </li>
-          <li class="d-inline-block me-2"> 
-            <a class="" href="#FAQ">FAQ</a>
-          </li>
-        </ul>
+          <ul class="d-block p-0 ps-2">
+            <li class="d-inline-block me-2">
+              <a class="" href="#how-does-it-work">Como funciona </a>
+            </li>
+            <li class="d-inline-block me-2">
+              <a class="" href="#how-to-participate">Como participar </a>
+            </li>
+            <li class="d-inline-block me-2">
+              <a class="" href="#mentor">Mentores </a>
+            </li>
+            <li class="d-inline-block me-2">
+              <a class="" href="#schedule">Programação </a>
+            </li>
+            <li class="d-inline-block me-2">
+              <a class="" href="#FAQ">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
- </footer>
+  </footer>
 </body>
 
 </html>
