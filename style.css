@@ -676,9 +676,6 @@ span a {
     display: none;
   }
 
-
-
-
   .content-sub h2 {
     font-size: 25px;
     position: absolute;
@@ -703,7 +700,7 @@ span a {
 
   .first-part p,
   span a {
-    font-size: 19px;
+    font-size: 15px;
     text-align: left;
   }
 
