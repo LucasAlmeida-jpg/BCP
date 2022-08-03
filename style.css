@@ -533,6 +533,7 @@ footer .image-footer img{
   background-color: #000000;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 
 }
 
@@ -568,9 +569,10 @@ footer .image-footer img{
 
 
 .modal-footer {
-  padding-right: 60px;
   text-align: center;
   margin-top: -70px;
+  justify-content: center;
+  overflow: hidden;
 } 
 
 .first-part {
@@ -958,6 +960,7 @@ footer .footer-links .footer {
   padding: 0;
 }
 
+
 .navbar .btn{
   margin-right: 15px;
   padding: 9px 18px;
@@ -1002,6 +1005,7 @@ footer a:hover {
 .modal{
   max-width: 100vw;
   max-height: 100vh;
+  overflow: hidden;
 } 
 
 .accordion__button{
@@ -1017,4 +1021,11 @@ footer a:hover {
   display: block;
 }
 
+.modal-backdrop{
+  position: relative;
+}
+
+.modal-footer{
+  padding: 0;
+}
 }
