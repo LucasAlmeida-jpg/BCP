@@ -13,6 +13,10 @@ footer a {
 
 }
 
+.modal-container iframe{
+  width: 640px;
+  height: 580px;
+}
 
 footer a:hover {
   text-decoration: underline;
@@ -1017,11 +1021,6 @@ footer a:hover {
   color: white;
 }
 
-.modal{
-  max-width: 100vw;
-  max-height: 100vh;
-  overflow: hidden;
-} 
 
 .accordion__button{
   font-size: 14px;
@@ -1043,4 +1042,25 @@ footer a:hover {
 .modal-footer{
   padding: 0;
 }
+
+
+.modal-container iframe{
+  padding: 0px 180px 200px 120px;
+  width: 700px;
+  height: 100vh;
+}
+
+.modal-container p{
+  margin-left: 130px;
+  margin-bottom: 10px;
+}
+
+.modal-footer .btn-form{
+   position: absolute;
+   margin: 0 auto;
+   margin-top: -150px;
+   border: none;
+}
+
+
 }
