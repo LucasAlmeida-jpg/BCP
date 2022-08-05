@@ -28,8 +28,8 @@ $(window).scroll(function() {
     toggleButton.addEventListener('click', () => {
         navbar.classList.toggle('active')
 
-        $('.navbar a').click(function(){
-            $(".navbar").collapse('hide');
-        });
     })
 
+jQuery(document).on("click",".menu-item", function(){
+    jQuery(".navbar").removeClass("active");
+});
