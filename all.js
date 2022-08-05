@@ -32,3 +32,4 @@ $(window).scroll(function() {
             $(".navbar").collapse('hide');
         });
     })
+

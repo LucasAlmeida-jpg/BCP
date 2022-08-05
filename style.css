@@ -602,7 +602,6 @@ align-items: center;
   font-size: 35px;
   margin-bottom: 160px;
   margin-top: 120px;
-  margin-left: -12px;
 }
 
 
@@ -1043,7 +1042,6 @@ footer a:hover {
   padding: 0;
 }
 
-
 .modal-container iframe{
   padding: 0px 180px 200px 120px;
   width: 700px;
@@ -1063,6 +1061,8 @@ footer a:hover {
    margin-top: -190px;
    border: none;
 }
-
+.modal-backdrop.show {
+  display: none;
+}
 
 }
