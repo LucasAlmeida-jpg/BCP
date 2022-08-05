@@ -956,6 +956,9 @@ span a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.arrow-img{
+  display: none;
+}
 
 .submit-button button{
   color: #fff;
