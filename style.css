@@ -179,6 +179,13 @@ footer a:hover {
   margin-right: 50px;
 }
 
+#ff-compose .ff-partial{
+  display: none;
+}
+
+#ff-compose .ff-form .ff-powered-img img{
+  opacity: 0;
+}
 
 #section2 .container .space-icon {
   margin-left: 150px;
@@ -571,13 +578,38 @@ align-items: center;
  
   display: none;
 }
+.form-control{
+  background: #201f1f;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 0;
+  border-bottom: 2px solid #9757FF;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  background-color:#201f1f;
+  color: white;
+}
 
 .modal-body p {
   font-weight: 770;
   font-size: 20px;
   color: rgb(124, 115, 115);
-  margin-left: 40px;
+  margin-left: 13px;
   margin-bottom: -20px;
+}
+
+.ff-form .ff-title {
+font-weight: 800 !important;
+ 
+}
+
+.ff-form .ff-description p{
+  font-weight: 800 !important;
+ 
 }
 
 .modal-content {
@@ -588,7 +620,6 @@ align-items: center;
 
 .modal-footer {
   text-align: center;
-  margin-top: -70px;
   justify-content: center;
   overflow: hidden;
 } 
