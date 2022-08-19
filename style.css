@@ -371,7 +371,7 @@ footer a:hover {
 
 .carousel-cell {
   width: 340px;
-  height: 700px;
+  height: 720px;
   margin-right: 20px;
   background: #232323;
   border-radius: 20px;
@@ -387,9 +387,9 @@ footer a:hover {
 .carousel-cell h4 {
   color: white;
   text-align: center;
-  font-size: 21px;
-  margin-top: 20px;
-  padding-bottom: 20px;
+  font-size: 17px;
+  margin-top: 11px;
+  padding-bottom: 10px;
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
@@ -1105,6 +1105,10 @@ footer a:hover {
 }
 .modal-backdrop.show {
   display: none;
+}
+
+.info-teacher .pt-5{
+   padding: 0;
 }
 
 }
