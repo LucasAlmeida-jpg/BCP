@@ -204,8 +204,9 @@ footer a:hover {
 
 .card img {
   width: 570px;
-  height: auto;
-
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 .card-text{
@@ -370,7 +371,7 @@ footer a:hover {
 
 .carousel-cell {
   width: 340px;
-  height: 740px;
+  height: 700px;
   margin-right: 20px;
   background: #232323;
   border-radius: 20px;
@@ -396,6 +397,7 @@ footer a:hover {
   text-decoration: none;
   color: white;
   transition: 0.2s;
+  font-size: 15px;
 }
 
 .carousel-cell a:hover {
@@ -487,6 +489,7 @@ footer a:hover {
 footer {
   border-top: 1px solid #0f0f0f;
   padding: 0px 0px 20px 0px;
+  margin: 0;
   width: 100%;
   justify-content: space-around;
   display: flex;
@@ -663,20 +666,22 @@ font-weight: 800 !important;
 }
 
 .modules .col-md-4 .info-right h3 {
-  font-size: 16px;
+  font-size: 12px;
+  margin-top: -7px;
 }
 
+
 .modules img {
-  width: 63px;
-  height: 62px;
+  width: 40px;
+  height: auto;
   margin-bottom: 12px;
 }
 
 .modules .col-md-4 h1 {
-  font-size: 12px;
+  font-size: 9px;
   text-transform: uppercase;
   font-weight: 100;
-  margin: 34px 0px;
+  margin: 16px 0px;
 }
 
 .modules .row {
