@@ -13,6 +13,11 @@ footer a {
 
 }
 
+.brand-title img{
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
 .modal-container iframe{
   width: 640px;
   height: 580px;
@@ -387,17 +392,21 @@ footer a:hover {
 .carousel-cell h4 {
   color: white;
   text-align: center;
-  font-size: 17px;
-  margin-top: 11px;
-  padding-bottom: 10px;
+  font-size: 18px;
+  margin-top: 14px;
+  padding-bottom: 13px;
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .carousel-cell a {
+  text-align: center;
   text-decoration: none;
-  color: white;
   transition: 0.2s;
   font-size: 15px;
+  background:  linear-gradient(275.83deg, #9757FF -22.92%, #3300FF 92.78%);
+  padding: 3px 6px;
+  border-radius: 50%;
+  
 }
 
 .carousel-cell a:hover {

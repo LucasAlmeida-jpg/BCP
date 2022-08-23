@@ -33,3 +33,20 @@ $(window).scroll(function() {
 jQuery(document).on("click",".menu-item", function(){
     jQuery(".navbar").removeClass("active");
 });
+
+
+
+
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#ff-next-root").html("Próximo");
+    });
+  });
+
+  $(document).ready(function(){
+    $("button").click(function(){
+        $(".ff-back").html("Voltar");
+    });
+  });
+
