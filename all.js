@@ -38,15 +38,15 @@ jQuery(document).on("click",".menu-item", function(){
 
 
 
-$(document).ready(function(){
-    $("button").click(function(){
-        $("#ff-next-root").html("Próximo");
-    });
-  });
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         $("#ff-next-root").html("Próximo");
+//     });
+//   });
 
-  $(document).ready(function(){
-    $("button").click(function(){
-        $(".ff-back").html("Voltar");
-    });
-  });
+//   $(document).ready(function(){
+//     $("button").click(function(){
+//         $(".ff-back").html("Voltar");
+//     });
+//   });
 

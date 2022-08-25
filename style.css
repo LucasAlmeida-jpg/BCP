@@ -18,10 +18,7 @@ footer a {
   height: auto;
   object-fit: cover;
 }
-.modal-container iframe{
-  width: 640px;
-  height: 580px;
-}
+
 
 footer a:hover {
   text-decoration: underline;
@@ -120,8 +117,8 @@ footer a:hover {
 }
 
 .container .navbar{
-  padding-bottom: 40px;
   align-items: center;
+  padding-bottom: 40px;
 }
 
 .info-left h1 {
@@ -555,9 +552,8 @@ footer .image-footer img{
 
 .modal {
   background-color: #000000;
-  overflow: hidden;
-
 }
+
 .modal-container{
   width: 100vw;
 height: 100vh;
@@ -587,7 +583,6 @@ align-items: center;
 }
 
 .modal-header p {
- 
   display: none;
 }
 .form-control{
@@ -625,7 +620,7 @@ font-weight: 800 !important;
 }
 
 .modal-content {
-  width: 640px;
+  text-align: center;
   justify-content: center;
 }
 
@@ -732,13 +727,75 @@ span a {
   display: none;
 }
 
+/* Schedule landing */
+
+.tittle-schedule h1 {
+  color: #FFFFFF;
+font-size: 20px;
+opacity: 0.4;
+font-weight: 700;
+}
+
+.navbar .back{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+.information .crono{
+  color: white;
+  font-size: 58px;
+  font-weight: 900;
+  margin-bottom: 80px;
+}
+
+.box {
+  background-color: #232323;
+  font-size: 15px;
+  border-radius: 15px;
+  color: #E3E3E3;
+  padding: 22px 45px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+.subtitle-schedule h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.sub-number{
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 20px;
+  margin-top: 76px;
+}
+
+.sub-number span{
+background-color: #232323 ;
+padding: 10px 18px;
+border-radius: 50%;
+margin-right: 10px;
+
+}
+
+.opacity{
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-size: 13px;
+  margin-right: -300;
+}
 
 @media screen and (max-width: 600px) {
 
   body{
     overflow-x: hidden;
   }
- 
+  .teacher-card{
+    margin-top: -50px;
+  }
   .img-right{
     max-width: 100%;
     max-height: 100%;
@@ -856,6 +913,7 @@ span a {
   .modules .container {
     padding: 25px;
   }
+  
 
   
 .carousel h1 {
@@ -873,31 +931,25 @@ span a {
     display: block;
   }
  
- 
-
   .navbar-links {
     display: none;
   } 
 
  .navbar {
-  background-color:#0F0F0F99  ;
-    /* background-color: #141414; */
-    position: fixed;
+    background: rgba(15, 15, 15, 0.6);
+    backdrop-filter: blur(25px); 
     width: 100%;
     z-index: 1;
     bottom: 0;
-    display: flex;
+    position: fixed;
     align-items: center;
     padding-bottom: 8px !important;
-    
  }
 
- 
+
  .navbar-links ul {
     flex-direction: column;
   }
-
-  
 
   .navbar-links li a {
     font-size: 25px;
@@ -913,6 +965,7 @@ span a {
     justify-content: center;
     padding-top: 70px;
   }
+
 
   .active .navbar-links{
     display: block;
@@ -1035,6 +1088,7 @@ footer .footer-links .footer {
   padding: 9px 18px;
 }
 
+
 .navbar span {
   color: white;
   font-size: 22px;
@@ -1093,11 +1147,7 @@ footer a:hover {
   padding: 0;
 }
 
-.modal-container iframe{
-  padding: 0px 180px 200px 120px;
-  width: 700px;
-  height: 100vh;
-}
+
 .modal-container  img{
   padding-top: 50px;
 }
@@ -1109,7 +1159,7 @@ footer a:hover {
 .modal-footer .btn-form{
    position: absolute;
    margin: 0 auto;
-   margin-top: -190px;
+   margin-top: -115px;
    border: none;
 }
 .modal-backdrop.show {
@@ -1118,6 +1168,57 @@ footer a:hover {
 
 .info-teacher .pt-5{
    padding: 0;
+}
+
+.navbar-links li a {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.opacity{
+  margin-right: 0px;
+}
+
+
+.navbar span {
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  margin-left: -60px;
+  display: block;
+}
+
+.navbar .back {
+  display: none;
+}
+
+.show{
+  display: block !important;
+  color: white !important;
+  text-decoration: none;
+ 
+}
+.show a {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+}
+.tittle-schedule h1{
+  display: none;
+}
+.fa-arrow-left:before{
+  color: white;
+  margin-left: 12px;
+}
+
+.information .crono{
+  font-size: 32px;
+  margin-top: -12px;
+  margin-bottom: -12px;
+}
+.information h1{
+  font-weight: 800;
 }
 
 }
