@@ -983,6 +983,8 @@ margin-right: 10px;
 
   .active .navbar-links{
     display: block;
+    padding-top: 80px;
+    
   }
   
   .first-section .logo-mobile img {
