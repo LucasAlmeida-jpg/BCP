@@ -121,6 +121,7 @@ footer a:hover {
 .container .navbar{
   align-items: center;
   padding-bottom: 8px;
+  
 }
 
 .info-left h1 {
@@ -945,6 +946,11 @@ margin-right: 10px;
     bottom: 0;  
     position: fixed;
     align-items: center;
+    overflow: hidden;
+ }
+ 
+ #main-menu{
+  overflow: hidden;
  }
 
  .navbar-links ul {
@@ -967,11 +973,12 @@ margin-right: 10px;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -100px;
     position: fixed;
     z-index: 1;
     margin: 0;
     width: 100vw;
+    overflow: hidden;
   }
 
   .active .navbar-links{
