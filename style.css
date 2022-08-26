@@ -948,16 +948,6 @@ margin-right: 10px;
     padding-bottom: 8px !important;
  }
 
-
-
- .navbar .active{
-  height: 100vh;
-  margin: 0;
-  bottom: 0;
-  left: 0;
-  
- }
-
  .navbar-links ul {
     flex-direction: column;
   }
@@ -975,6 +965,9 @@ margin-right: 10px;
     display: flex;
     justify-content: center;
     padding-top: 70px;
+    margin: 0;
+    bottom: 0;
+    left: 0;
   }
 
 
