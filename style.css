@@ -1237,4 +1237,7 @@ footer a:hover {
   font-weight: 800;
 }
 
+.box {
+  padding: 15px 15px;
+}
 }
