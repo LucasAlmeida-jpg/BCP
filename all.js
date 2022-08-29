@@ -27,7 +27,6 @@ $(window).scroll(function() {
     const navbar = document.getElementsByClassName('navbar') [0]
     toggleButton.addEventListener('click', () => {
         navbar.classList.toggle('active')
-
     })
 
 jQuery(document).on("click",".menu-item", function(){
