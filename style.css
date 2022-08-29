@@ -19,6 +19,9 @@ footer a {
   object-fit: cover;
 }
 
+.font-adjustment{
+  font-size: 14px;
+}
 
 footer a:hover {
   text-decoration: underline;
@@ -789,7 +792,7 @@ margin-right: 10px;
   color: #FFFFFF;
   opacity: 0.5;
   font-size: 13px;
-  margin-right: -300;
+  margin-right: -300px;
 }
 
 @media screen and (max-width: 600px) {
