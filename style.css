@@ -12,6 +12,9 @@ footer a {
   text-decoration: none;
 
 }
+.ff-description .btn-primary{
+  display: none;
+}
 
 .brand-title img{
   width: 150px;
@@ -191,8 +194,8 @@ footer a:hover {
   display: none;
 }
 
-#ff-compose .ff-form .ff-powered-img img{
-  opacity: 0;
+#ff-compose .ff-form .ff-powered-img img {
+  display: none;
 }
 
 #section2 .container .space-icon {
