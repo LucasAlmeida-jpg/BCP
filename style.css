@@ -193,6 +193,11 @@ footer a:hover {
 #ff-compose .ff-partial{
   display: none;
 }
+.talk{
+  color: white;
+  font-weight: 400;
+  margin-top: 20px;
+}
 
 #ff-compose .ff-form .ff-powered-img img {
   display: none;
@@ -1181,7 +1186,7 @@ footer a:hover {
 .modal-footer .btn-form{
    position: absolute;
    margin: 0 auto;
-   margin-top: -115px;
+   margin-top: -50px;
    border: none;
 }
 .modal-backdrop.show {
@@ -1242,5 +1247,8 @@ footer a:hover {
 
 .box {
   padding: 15px 15px;
+}
+.modal-container img{
+  padding-top: 0px !important;
 }
 }
