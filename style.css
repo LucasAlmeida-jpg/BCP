@@ -807,6 +807,7 @@ margin-right: 10px;
 
   body{
     overflow-x: hidden;
+    overflow-y: scroll;
   }
   .teacher-card{
     margin-top: -50px;
@@ -960,10 +961,6 @@ margin-right: 10px;
     overflow: hidden;
  }
  
- #main-menu{
-  overflow: hidden;
- }
-
  .navbar-links ul {
     flex-direction: column;
   }
@@ -989,7 +986,6 @@ margin-right: 10px;
     z-index: 1;
     margin: 0;
     width: 100vw;
-    overflow: hidden;
   }
 
   .active .navbar-links{
