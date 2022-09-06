@@ -24,14 +24,14 @@ footer a {
 }
 
 .font-adjustment{
-  font-size: 14px;
+  font-size: 13px;
 }
 
 footer a:hover {
   text-decoration: underline;
-  color: white;
-  
+  color: white; 
 }
+
 .navbar .toggle-button img{
   display: none;
 }
