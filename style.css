@@ -666,7 +666,7 @@ font-weight: 800 !important;
 .modules .col-md-4 {
   background-color: #232323;
   border-radius: 0px 18px 18px 0px;
-  padding-left: 34px;
+  padding: 30px;
 
 }
 
@@ -674,21 +674,12 @@ font-weight: 800 !important;
   align-items: center;
 }
 
-.modules .col-md-4 .info-teacher .img-left {
-  margin-right: 12px;
-}
-
 .modules .col-md-4 .info-right h2 {
   font-size: 12px;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 600;
+  margin-bottom: 40px;
 }
-
-.modules .col-md-4 .info-right h3 {
-  font-size: 12px;
-  margin-top: -7px;
-}
-
 
 .modules img {
   width: 40px;
@@ -800,7 +791,8 @@ margin-right: 10px;
   color: #FFFFFF;
   opacity: 0.5;
   font-size: 13px;
-  margin-right: -300px;
+  text-align: right;
+
 }
 
 @media screen and (max-width: 600px) {
@@ -1193,7 +1185,7 @@ footer a:hover {
 }
 
 .opacity{
-  margin-right: 0px;
+  text-align: left;
 }
 
 
