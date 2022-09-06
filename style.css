@@ -5,6 +5,7 @@ html {
 
 body {
   background-color: #000000;
+  overflow-y: scroll;
 }
 
 footer a {
@@ -570,7 +571,6 @@ footer .image-footer img{
 
 .modal-container{
   width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1174,10 +1174,7 @@ footer a:hover {
 .modal-container  img{
   padding-top: 50px;
 }
-.modal-container p{
-  margin-left: 130px;
-  margin-bottom: 10px;
-}
+
 
 .modal-footer .btn-form{
    position: absolute;
