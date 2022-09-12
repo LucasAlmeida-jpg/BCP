@@ -16,6 +16,11 @@ footer a {
   display: none;
 }
 
+.information .adjustment{
+  color:white;
+  margin-top: -100px;
+  margin-bottom: 100px;
+}
 .brand-title img{
   width: 150px;
   height: auto;
@@ -909,6 +914,11 @@ margin-right: 10px;
 
 .information h1 {
   font-size: 25px;
+  
+}
+.information h6{
+ margin-top: 80px;
+ font-size: 14px;
 }
 
   .modules .col-md-8 {
@@ -1230,6 +1240,8 @@ footer a:hover {
 .information h1{
   font-weight: 800;
 }
+
+
 
 .box {
   padding: 15px 15px;
