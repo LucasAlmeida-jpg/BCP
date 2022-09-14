@@ -16,6 +16,12 @@ footer a {
   display: none;
 }
 
+.ff-success{
+  height: 24px !important;
+  display: block !important;
+  text-align: center;
+}
+
 .information .adjustment{
   color:white;
   margin-top: -100px;
@@ -208,6 +214,9 @@ footer a:hover {
   display: none;
 }
 
+.ff-form .ff-powered-img{
+  margin-bottom: 50px;
+}
 #section2 .container .space-icon {
   margin-left: 150px;
 }
@@ -1181,7 +1190,7 @@ footer a:hover {
 .modal-footer .btn-form{
    position: absolute;
    margin: 0 auto;
-   margin-top: -50px;
+   margin-top: -70px;
    border: none;
 }
 .modal-backdrop.show {
@@ -1238,6 +1247,12 @@ footer a:hover {
 }
 .information h1{
   font-weight: 800;
+}
+
+.ff-success{
+  height: 60px !important;
+  display: block !important;
+  text-align: center;
 }
 
 
