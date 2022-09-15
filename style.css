@@ -1066,6 +1066,14 @@ span a {
   .questionnaire h1 {
     font-size: 25px;
     margin-top: 0px;
+    ;
+   
+  }
+
+  .modules .broken-text br
+  {
+    display: none;
+    
   }
 
   .container p {
@@ -1303,4 +1311,5 @@ span a {
   .modal-container img {
     padding-top: 0px !important;
   }
+
 }
