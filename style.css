@@ -1226,6 +1226,11 @@ footer a:hover {
   text-decoration: none;
  
 }
+.card .card-body{
+  padding: 18px;
+}
+.card .card-body br{
+display: none;}
 .show a {
   color: white !important;
   text-decoration: none;
