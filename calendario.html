@@ -11,8 +11,8 @@
         integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <link rel="stylesheet" href="style.css?v33">
-    <link rel="icon" href="favicons/favicon.ico">
+    <link rel="stylesheet" href="https://storage.googleapis.com/creators-bcp-1/style.css?v1">
+    <link rel="icon" href="https://storage.googleapis.com/creators-bcp-1/favicons/favicon.ico">
     <script src="https://kit.fontawesome.com/e99973526a.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,7 +48,7 @@
                         <div class="modal-header">
                         </div>
                         <div class="modal-body">
-                            <img src="assets/logo-mobiles.png" alt="">
+                            <img src="https://storage.googleapis.com/creators-bcp-1/assets/logo-mobiles.png" alt="">
                             <p>Seu conteúdo, sua empresa.</p>
                         </div>
                         <div class="form">
@@ -973,7 +973,7 @@
                 </div>
                 <div class="col-lg-6 d-flex align-items-end d-flex flex-column">
                     <a href="https://creators.llc/" target="_blank"><img class=" d-none d-lg-block mb-3"
-                            src="assets/develop.png " alt="imagem logo Creators footer"></a>
+                            src="https://storage.googleapis.com/creators-bcp-1/assets/develop.png " alt="imagem logo Creators footer"></a>
 
                     <ul class="d-block p-0 ps-2">
                         <li class="d-inline-block me-2">
@@ -997,7 +997,42 @@
         </div>
     </footer>
 
-<script src="all.js"></script>
+<script>
+document.querySelectorAll('.accordion__button').forEach(button => {
+    button.addEventListener('click', () => {
+        const accordionContent = button.nextElementSibling
+
+        button.classList.toggle('accordion__button--active')
+
+        if(button.classList.contains('accordion__button--active')) {
+            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px'
+        }
+        else {
+            accordionContent.style.maxHeight = 0
+        }
+    })  
+})
+
+$(window).scroll(function() {
+    var math = $(window).scrollTop() / 750% Math.PI;
+    $('#leftgear').css({ transform: 'rotate(' + math + 'rad)' });
+    $('#rightgear').css({ transform: 'rotate(-' + math + 'rad)' });
+    $('#leftge').css({ transform: 'rotate(-' + math + 'rad)' });
+    $('#rightg').css({ transform: 'rotate(-' + math + 'rad)' });
+    $('#right').css({ transform: 'rotate(' + math + 'rad)' });
+});
+
+const toggleButton = document.getElementsByClassName('toggle-button') [0]
+const navbar = document.getElementsByClassName('navbar') [0]
+toggleButton.addEventListener('click', () => {
+    navbar.classList.toggle('active')
+})
+
+jQuery(document).on("click",".menu-item", function(){
+    jQuery(".navbar").removeClass("active");
+});
+
+</script>
 <script async defer src="https://formfacade.com/include/113070964537635532045/form/1FAIpQLSeHJZLT1j1yzcbq6uJzRDApMeH6Lus3xdlSpieCZzbqnUDgvw/bootstrap.js?div=ff-compose"></script>
 
 <!-- Google Tag Manager (noscript) -->
